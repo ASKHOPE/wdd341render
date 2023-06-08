@@ -9,6 +9,12 @@ app.get("/", (req, res,next) => {
   //res.end(); // Finsihes the response
 });
 
+app.get("/home2", (req, res,next) => {
+  
+  res.send("Welcome to Home : Awesome Mr.Nobody"); //Send 
+  //res.end(); // Finsihes the response
+});
+
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
